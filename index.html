@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <title>Новостное агенство</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+</head>
+
+<body>
+    <div class="news white-text" id="news">
+        <div class="fixed-container">
+            Самые <a href="#">свежие новости</a> в реальном времени
+            <div id="date-time">12:30 24.03.2020</div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="fixed-container">
+            <div class="innerhead" id="menubtn">
+                &#9776;
+            </div>
+            <div class="head"><img src="img/icons/logo.png" alt="Лого"></div>
+            <div class="innerhead" id="headdate">
+                <label for="">19.12.2011</label></div>
+            <div class="innerhead" id="headtime">
+                <img id="time-img" src="img/icons/icon-time.png" alt="Время">
+                <label for="time-img">10:11</label>
+            </div>
+            <div class="innerhead" id="headweather">
+                <img id="weather-img" src="img/icons/weather.png" alt="Погода">
+                <label for="weather-img">+22 <sup>0</sup>C</label>
+            </div>
+            <div class="innerhead" id="headsearch">
+                <input type="text" id="search" placeholder="Поиск по сайту">
+            <div id="searchbtn">
+                <img src="img/icons/search.png" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu">
+        <div class="fixed-container">
+            <div id="main-menu-regular"></div>
+            <div class="menu-item">Главная</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Политика</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Общество</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Экономика</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">В мире</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Проишествия</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Спорт</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Наука</div>
+            <div class="menu-item separator">/</div>
+            <div class="menu-item">Туризм</div>
+        </div>
+        </div>
+    </div>
+    <div id="main-menu-vertical">
+            <div class="menu-item-v">Главная</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Политика</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Общество</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Экономика</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">В мире</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Проишествия</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Спорт</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Наука</div>
+            <hr class="separator-v">
+            <div class="menu-item-v">Туризм</div>
+    </div>
+    <div id="central-container">
+        <div class="fixed-container flex-container">
+            <div id="column-left">
+                <h4>Новости дня</h4>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            17
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            17
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            17
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            10
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            15
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-item-text">
+                        Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                    </div>
+                    <div class="news-item-props">
+                        <a href="#">/ЧМ по футболу 2020</a>
+                        <div class="news-time">
+                            10:45
+                        </div>
+                        <div class="news-comments-count">
+                            17
+                        </div>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div id="all-news">
+                        <button id="all-news-button">Все новости</button>
+                    </div>
+                </div>
+            </div>
+            <div id="column-center">
+                <div id="big-block">
+                    <a href="#">/Политика</a>
+                    <div class="news-item-text">
+                        В Крыму отреагировали на слова Кравчука о возврате полуострова
+                    </div>
+                    <div class="date-news">
+                        19 июня 2019
+                    </div>
+                    <div class="news-time">
+                        10:45
+                    </div>
+                </div>
+                <div id="little-blocks" class="flex-container">
+                    <div id="lb-row1" class="lb-flex">
+                        <div class="lb">
+                            <img src="img/news/n1.jpg" alt="">
+                            <div class="news-item-text">
+                                Нью-Йорк поставлен на паузу. 10 дней хроники
+                            </div>
+                            <div class="news-item-props">
+                                <a href="#">/В мире</a>
+                                <div class="news-time">
+                                    10:45
+                                </div>
+                                <div class="news-comments-count">
+                                    17
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lb">
+                            <img src="img/news/n2.jpg" alt="">
+                            <div class="news-item-text">
+                                Карина и ее 15 душ. Побывали в чистой квартире-«зоопарке»
+                            </div>
+                            <div class="news-item-props">
+                                <a href="#">/Интересное</a>
+                                <div class="news-time">
+                                    10:45
+                                </div>
+                                <div class="news-comments-count">
+                                    17
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lb-row2" class="lb-flex">
+                        <div class="lb">
+                            <img src="img/news/n3.jpg" alt="">
+                            <div class="news-item-text">
+                                В работе проводного интернета БТК произошел сбой
+                            </div>
+                            <div class="news-item-props">
+                                <a href="#">/IT</a>
+                                <div class="news-time">
+                                    10:45
+                                </div>
+                                <div class="news-comments-count">
+                                    17
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lb">
+                            <img src="img/news/n4.jpg" alt="">
+                            <div class="news-item-text">
+                                Нам вслед кричат: «Corona, go!» Белорусы за рубежом
+                            </div>
+                            <div class="news-item-props">
+                                <a href="#">/В мире</a>
+                                <div class="news-time">
+                                    10:45
+                                </div>
+                                <div class="news-comments-count">
+                                    17
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="column-right">
+                <img src="img/banners/banner-1.png" alt="Баннер">
+                <img src="img/banners/banner-2.png" alt="Баннер">
+            </div>
+        </div>
+        <div class="fixed-container">
+            <div id="special-news" class="flex-container">
+                <div id="big-special">
+                    <a href="#">/Политика</a>
+                    <div class="news-item-text">
+                        Пекин обвинил Вашингтон в развязывании торговой войны
+                    </div>
+                    <div class="date-news">
+                        19 июня 2019
+                    </div>
+                    <div class="news-time">
+                        10:45
+                    </div>
+                    <div class="big-news-descrip">
+                        Министерство коммерции КНР в пятницу заявило, что Китай по-прежнему обладает преимуществами в
+                        привлечении иностранных
+                        инвестиций в связи с положением эпидемии в мире.
+                    </div>
+                </div>
+                <div id="right-special">
+                    <h4>Самые читаемые новости</h4>
+                    <div class="news-item">
+                        <div class="news-item-text">
+                            Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                        </div>
+                        <div class="news-item-props">
+                            <a href="#">/ЧМ по футболу 2020</a>
+                            <div class="news-time">
+                                10:45
+                            </div>
+                            <div class="news-comments-count">
+                                17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item-text">
+                            Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                        </div>
+                        <div class="news-item-props">
+                            <a href="#">/ЧМ по футболу 2020</a>
+                            <div class="news-time">
+                                10:45
+                            </div>
+                            <div class="news-comments-count">
+                                17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item-text">
+                            Кот Ахилл предсказал исход сегодняшнего матча Белшина - Ювентус.
+                        </div>
+                        <div class="news-item-props">
+                            <a href="#">/ЧМ по футболу 2020</a>
+                            <div class="news-time">
+                                10:45
+                            </div>
+                            <div class="news-comments-count">
+                                17
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="news-footer" class="flex-container">
+        <div id=footer-left class="flex-container">
+            <div id="footer-row1">
+                <div class="map"><a href="#">Главная</a></div>
+                <div class="map"><a href="#">Политика</a></div>
+                <div class="map"><a href="#">Общество</a></div>
+                <div class="map"><a href="#">Экономика</a></div>
+                <div class="map"><a href="#">В мире</a></div>
+            </div>
+            <div id="footer-row2">
+                <div class="map"><a href="#">Путешествия</a></div>
+                <div class="map"><a href="#">Спорт</a></div>
+                <div class="map"><a href="#">Наука</a></div>
+                <div class="map"><a href="#">Туризм</a></div>
+            </div>
+        </div>
+        <div id="footer-center" class="flex-container" >
+            <div class="map"><a href="#">Об агенстве</a></div>
+            <div class="map"><a href="#">Контакты</a></div>
+            <div class="map"><a href="#">Опубликовать новость</a></div>
+        </div>
+        <div id="footer-right" class="flex-container">
+            <div id="footer-social">
+                <a href="https://twitter.com"><img src="img/icons/twitter.png" alt=""></a>
+                <a href="https://vk.com"><img src="img/icons/vk.png" alt=""></a>
+                <a href="https://facebook.com"><img src="img/icons/fb.png" alt=""></a>
+                <a href="https://instagram.com"><img src="img/icons/insta.png" alt=""></a>
+            </div>
+            <div id="footer-phone">+7 (900) 995-55-55</div>
+            <!--<div id="phone-mail-text">+7 (900) 995-55-55</div>-->
+            <div id="footer-mail">mail@agency.ru</div>
+            <!--<div id="phone-mail-text">mail@agency.ru</div>-->
+        </div>
+        
+        <!--<div id="copyright">
+            <hr class="hrseparator" noshade="noshade">
+            &copy Новостное агенство, 2020
+        </div>-->
+    </div>
+    <a id="up" href="#news">^</a>
+</body>
+
+</html>
