@@ -128,6 +128,7 @@ _ttd_log_
 # Ignore all local history of files
 .history
 node_modules
+package.json
 # End of https://www.gitignore.io/api/visualstudiocode,node,nodechakratimetraveldebug
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
